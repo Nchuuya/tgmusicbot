@@ -81,7 +81,7 @@
         "UPDATES_CHANNEL": {
             "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
             "required": true,
-            "value": "https://t.me/about_brutu"
+            "value": "https://t.me/ABOUT_BRUTU_DISCUSSION_GROUP"
         }
     },
     "buildpacks": [
