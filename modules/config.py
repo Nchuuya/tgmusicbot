@@ -28,6 +28,6 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2035495883").split()))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/S4SAHILHACKER")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "https://t.me/ABOUT_BRUTU_DISCUSSION_GROUP")
 
-# 𝐃𝐨 𝐍𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐞 𝐓𝐡𝐢𝐬 𝐋𝐢𝐧𝐞𝐬 // 𝐈𝐠𝐧𝐨𝐫𝐞 𝐓𝐡𝐢𝐬 (𝐀𝐝𝐢𝐭𝐲𝐚 𝐇𝐚𝐥𝐝𝐞𝐫) 
+# 𝐃𝐨 𝐍𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐞 𝐓𝐡𝐢𝐬 𝐋𝐢𝐧𝐞𝐬 // 𝐈𝐠𝐧𝐨𝐫𝐞 𝐓𝐡𝐢𝐬 (Brutal Rajput) 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 PROFILE_CHANNEL = getenv("PROFILE_CHANNEL", "https://t.me/about_brutu")
