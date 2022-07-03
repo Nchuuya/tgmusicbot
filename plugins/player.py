@@ -35,21 +35,9 @@ chat_id = None
 useer = "NaN"
 
 themes = [
-    "bgreen",
-    "blue",
-    "colorfull",
-    "dgreen",
-    "hgreen",
-    "lgreen",
-    "lyellow",
-    "orange",
-    "pink",
-    "purple",
-    "rainbow",
-    "red",
-    "sky",
-    "thumbnail",
-    "yellow",
+    "asuka",
+    "asukaaa",
+    "asukaa",
 ]
 
 def transcode(filename):
