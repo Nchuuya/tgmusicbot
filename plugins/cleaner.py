@@ -17,7 +17,7 @@ async def clear_downloads(_, message: Message):
     if ls_dir:
         for file in os.listdir(downloads):
             os.remove(os.path.join(downloads, file))
-        await message.reply_text("✅ **𝑫𝒆𝒍𝒆𝒕𝒆𝒅 𝑨𝒍𝒍 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒅 𝑭𝒊𝒍𝒆𝒔 ...**")
+        await message.reply_text("**𝑫𝒆𝒍𝒆𝒕𝒆𝒅 𝑨𝒍𝒍 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒅 𝑭𝒊𝒍𝒆𝒔 ...**")
     else:
         await message.reply_text("❌ **𝑵𝒐 𝑭𝒊𝒍𝒆𝒔 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒅 ...**")
 
@@ -30,7 +30,7 @@ async def clear_raw(_, message: Message):
     if ls_dir:
         for file in os.listdir(raw_files):
             os.remove(os.path.join(raw_files, file))
-        await message.reply_text("✅ **𝑫𝒆𝒍𝒆𝒕𝒆𝒅 𝑨𝒍𝒍 𝑹𝒂𝒘 𝑭𝒊𝒍𝒆𝒔 ...**")
+        await message.reply_text("**𝑫𝒆𝒍𝒆𝒕𝒆𝒅 𝑨𝒍𝒍 𝑹𝒂𝒘 𝑭𝒊𝒍𝒆𝒔 ...**")
     else:
         await message.reply_text("❌ **𝑵𝒐 𝑹𝒂𝒘 𝑭𝒊𝒍𝒆𝒔 𝒊𝒏 𝑺𝒆𝒓𝒗𝒆𝒓 ...**")
 
