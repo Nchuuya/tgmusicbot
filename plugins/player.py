@@ -262,7 +262,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**𝐆𝐢𝐯𝐞 𝐌𝐮𝐬𝐢𝐜 𝐍𝐚𝐦𝐞\n𝐓𝐨 𝐏𝐥𝐚𝐲 𝐒𝐨𝐧𝐠...**"
+                "**𝐆𝐢𝐯𝐞 𝐌𝐮𝐬𝐢𝐜 𝐍𝐚𝐦𝐞\n𝐓𝐨 𝐏𝐥𝐚𝐲...**"
             )
         await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
         query = message.text.split(None, 1)[1]
@@ -341,7 +341,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**𝐌𝐮𝐬𝐢𝐜 𝐑𝐨𝐛𝐨𝐭 𝐍𝐨𝐰\n𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐎𝐏 ...**".format(),
+            caption="**𝐍𝐨𝐰 𝐏𝐥𝐚𝐲𝐢𝐧𝐠...**".format(),
            )
 
     os.remove("final.png")
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**𝐑𝐨𝐛𝐨𝐭 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 \n𝐏𝐥𝐚𝐲𝐢𝐧𝐠 ...**")
+        await message.reply_text("**𝐍𝐨𝐭𝐡𝐢𝐧𝐠 𝐓𝐨 𝐏𝐥𝐚𝐲...**")
     else:
         queues.task_done(chat_id)
         
