@@ -11,8 +11,8 @@ admins = {}
 aiohttpsession = aiohttp.ClientSession()
 
 # 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 //𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @𝐀𝐝𝐢𝐭𝐲𝐚𝐇𝐚𝐥𝐝𝐞𝐫
-API_HASH = getenv("API_HASH", "8714251")
-API_ID = int(getenv("API_ID", "50c97a11b622575c5b9441b1062f601a"))
+API_HASH = getenv("API_HASH", "50c97a11b622575c5b9441b1062f601a")
+API_ID = int(getenv("API_ID", "8714251"))
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Assistant ♡")
 ASSISTANT_USERNAME = getenv("ASSISTANT_USERNAME", "boa_assistant")
 BOT_IMAGE = getenv("BOT_IMAGE", "https://telegra.ph/file/55a3552a9184f40a891c0.jpg")
