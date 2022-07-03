@@ -191,7 +191,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
+                            text="🥀 𝐎𝐰𝐧𝐞𝐫 🕊️",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
@@ -203,12 +203,6 @@ async def play(_, message: Message):
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
                             url=f"{SUPPORT_GROUP}")
                ],
-               [
-                        InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
-                   
-                ]
             ]
         )
 
