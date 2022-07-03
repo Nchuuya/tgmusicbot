@@ -399,7 +399,7 @@ async def skip(_, message: Message):
         if queues.is_empty(chat_id):
             await message.reply_text("**𝑸𝒖𝒆𝒖𝒆 𝑬𝒎𝒑𝒕𝒚, 𝑳𝒆𝒂𝒗𝒊𝒏𝒈 𝑽𝑪 ...**") 
             await clientbot.pytgcalls.leave_group_call(chat_id)
-        else=:
+        else:
             await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝...**") 
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
